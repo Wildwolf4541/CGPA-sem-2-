@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <form id="cgpaForm">
+            <div class="subject">
+                <label for="manufacturing">Manufacturing Processes (3.5 credits):</label>
+                <input type="text" id="manufacturing" name="Manufacturing Processes">
+            </div>
+            <div class="subject">
+                <label for="physics">Physics (4.5 credits):</label>
+                <input type="text" id="physics" name="Physics">
+            </div>
+            <div class="subject">
+                <label for="communication">Professional Communication (3.0 credits):</label>
+                <input type="text" id="communication" name="Professional Communication">
+            </div>
+            <div class="subject">
+                <label for="drawing">Engineering Drawing (4.0 credits):</label>
+                <input type="text" id="drawing" name="Engineering Drawing">
+            </div>
+            <div class="subject">
+                <label for="mathematics">Mathematics (3.5 credits):</label>
+                <input type="text" id="mathematics" name="Mathematics">
+            </div>
+            <button type="button" onclick="calculateCGPA()">Calculate CGPA</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
